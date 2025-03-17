@@ -708,3 +708,9 @@ margin-top:-100px;
     color: #000;
     font-weight: 100;
 }
+
+.big-image img {
+    width: 100%; /* Makes the image fill the div */
+    height: auto; /* Keeps the aspect ratio */
+    display: block; /* Removes extra space below inline images */
+}
